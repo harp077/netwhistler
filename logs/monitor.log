@@ -1,0 +1,67 @@
+[05.01.2017 07.09.46]  Netwhistler starting
+[05.01.2017 07.10.56]  fping not found in PATH
+[05.01.2017 07.14.43]  Netwhistler shutdown
+[11.05.2022 14.40.13]  Netwhistler starting
+[11.05.2022 14.40.17]  fping not found in PATH
+[11.05.2022 14.40.34]  Netwhistler shutdown
+[11.05.2022 14.43.50]  Netwhistler starting
+[11.05.2022 14.43.52]  fping not found in PATH
+[11.05.2022 14.44.07]  Can't run trapd: Another SNMPD running?
+[11.05.2022 14.49.00]  Netwhistler shutdown
+[11.05.2022 14.58.38]  Netwhistler starting
+[11.05.2022 14.58.40]  fping not found in PATH
+[11.05.2022 15.00.55]  Netwhistler shutdown
+[11.05.2022 15.01.18]  Netwhistler starting
+[11.05.2022 15.01.20]  fping not found in PATH
+[11.05.2022 15.13.25]  Monitoring started
+[11.05.2022 15.23.24]  Netwhistler shutdown
+[11.05.2022 16.06.42]  Netwhistler starting
+[11.05.2022 16.06.44]  fping not found in PATH
+[11.05.2022 16.06.59]  Error executing fping -a -r 1 -e -t 1 10.73.0.1
+[11.05.2022 16.07.06]  Monitoring started
+[11.05.2022 16.11.47]  Can't run trapd: Another SNMPD running?
+[11.05.2022 16.18.58]  Netwhistler shutdown
+[11.05.2022 16.20.08]  Netwhistler starting
+[11.05.2022 16.20.09]  fping not found in PATH
+[11.05.2022 16.20.25]  Error executing fping -a -r 1 -e -t 1 10.73.0.1
+[11.05.2022 16.20.31]  Monitoring started
+[11.05.2022 16.21.34]  Netwhistler shutdown
+[11.05.2022 16.22.28]  Netwhistler starting
+[11.05.2022 16.22.29]  fping not found in PATH
+[11.05.2022 16.22.43]  Error executing fping -a -r 1 -e -t 1 10.73.0.1
+[11.05.2022 16.22.48]  Monitoring started
+[11.05.2022 17.45.49]  Netwhistler shutdown
+[11.05.2022 17.49.28]  Netwhistler starting
+[11.05.2022 17.49.29]  fping not found in PATH
+[11.05.2022 17.49.49]  Error executing fping -a -r 1 -e -t 1 10.73.0.1
+[11.05.2022 17.54.51]  Netwhistler shutdown
+[11.05.2022 17.55.04]  Netwhistler starting
+[11.05.2022 17.55.06]  fping not found in PATH
+[11.05.2022 17.55.21]  Error executing fping -a -r 1 -e -t 1 10.73.0.1
+[11.05.2022 17.55.39]  Netwhistler shutdown
+[11.05.2022 17.56.52]  Netwhistler starting
+[11.05.2022 17.56.53]  fping not found in PATH
+[11.05.2022 17.57.11]  Error executing fping -a -r 1 -e -t 1 10.73.0.1
+[11.05.2022 18.15.17]  Netwhistler shutdown
+[11.05.2022 18.19.32]  Netwhistler starting
+[11.05.2022 18.20.21]  Monitoring started
+[11.05.2022 18.26.25]  Monitoring stopped
+[11.05.2022 18.26.38]  Netwhistler shutdown
+[11.05.2022 18.26.41]  Netwhistler starting
+[11.05.2022 18.27.01]  Monitoring started
+[11.05.2022 18.30.11]  Netwhistler shutdown
+[11.05.2022 18.32.18]  Netwhistler starting
+[11.05.2022 18.33.25]  Netwhistler shutdown
+[11.05.2022 18.35.11]  Netwhistler starting
+[11.05.2022 18.42.39]  Netwhistler shutdown
+[11.05.2022 18.44.01]  Netwhistler starting
+[11.05.2022 18.47.22]  Netwhistler shutdown
+[11.05.2022 18.50.32]  Netwhistler starting
+[11.05.2022 18.58.02]  Monitoring started
+[11.05.2022 18.58.34]  Monitoring stopped
+[11.05.2022 19.27.17]  Netwhistler shutdown
+[11.05.2022 19.31.42]  Netwhistler starting
+[11.05.2022 19.49.41]  Monitoring started
+[11.05.2022 19.59.47]  Netwhistler shutdown
+[11.05.2022 20.01.02]  Netwhistler starting
+[11.05.2022 20.24.52]  Netwhistler shutdown

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--NetWhistler xml map-->
+<netwhistler>
+<map links="0" name="Network" netlinks="0" networks="1" nodes="1" shapes="0" version="2.10"/>
+<network community="look" icon="0" locationX="100" locationY="100" net="10.73.0.0/16" status="false" type="0"/>
+<node dnslabel="2" downtime="0" hintImg="" hostname="10.73.250.1" hwaddress="n/a" infoTxt="" ip="10.73.250.1" label="10.73.250.1" locationX="100" locationY="100" monitor="true" network="10.73.0.0/16" oids="" ports="HTTP:true#" rcommunity="look" snmp="true" status="false" type="cisco" uptime="708351264" wcommunity="private"/>
+<monitor alertAddress="" alertCom="" cmacCom="" cmdAlert="false" cpingCom="" customMac="false" customPing="false" customSnmp="false" emailAlert="false" htmlAlert="true" popupAlert="true" reply="1" retries="3" smtpAddress="" snmpCom="" timeout="5" timeoutSNMP="5" timeoutServices="5"/>
+<snmp trapCom="public" wizCom="look"/>
+<nodetype type="3com"/>
+<nodetype type="access-point"/>
+<nodetype type="ats"/>
+<nodetype type="bridge"/>
+<nodetype type="catalyst"/>
+<nodetype type="cisco"/>
+<nodetype type="d-link"/>
+<nodetype type="firewall"/>
+<nodetype type="freebsd-server"/>
+<nodetype type="hp-server"/>
+<nodetype type="hub"/>
+<nodetype type="ibm"/>
+<nodetype type="juniper"/>
+<nodetype type="linux-server"/>
+<nodetype type="linux-workstation"/>
+<nodetype type="lucent"/>
+<nodetype type="macosx"/>
+<nodetype type="mail-server"/>
+<nodetype type="mainframe"/>
+<nodetype type="managable-hub"/>
+<nodetype type="modem"/>
+<nodetype type="netbsd-server"/>
+<nodetype type="network-cloud"/>
+<nodetype type="network-printer"/>
+<nodetype type="network-printserver"/>
+<nodetype type="notebook"/>
+<nodetype type="novell-server"/>
+<nodetype type="olencom"/>
+<nodetype type="openbsd-server"/>
+<nodetype type="openvms-server"/>
+<nodetype type="pix"/>
+<nodetype type="redhat-server"/>
+<nodetype type="router"/>
+<nodetype type="server"/>
+<nodetype type="sql-server"/>
+<nodetype type="sun-server"/>
+<nodetype type="sun-workstation"/>
+<nodetype type="sun"/>
+<nodetype type="suse-server"/>
+<nodetype type="switch"/>
+<nodetype type="terminal"/>
+<nodetype type="webcam"/>
+<nodetype type="web-server"/>
+<nodetype type="wi-fi"/>
+<nodetype type="windows-server"/>
+<nodetype type="windows-workstation"/>
+<nodetype type="workstation"/>
+<nodetype type="unix"/>
+<nodetype type="ups"/>
+<nodetype type="3com"/>
+<nodetype type="access-point"/>
+<nodetype type="ats"/>
+<nodetype type="bridge"/>
+<nodetype type="catalyst"/>
+<nodetype type="cisco"/>
+<nodetype type="d-link"/>
+<nodetype type="firewall"/>
+<nodetype type="freebsd-server"/>
+<nodetype type="hp-server"/>
+<nodetype type="hub"/>
+<nodetype type="ibm"/>
+<nodetype type="juniper"/>
+<nodetype type="linux-server"/>
+<nodetype type="linux-workstation"/>
+<nodetype type="lucent"/>
+<nodetype type="macosx"/>
+<nodetype type="mail-server"/>
+<nodetype type="mainframe"/>
+<nodetype type="managable-hub"/>
+<nodetype type="modem"/>
+<nodetype type="netbsd-server"/>
+<nodetype type="network-cloud"/>
+<nodetype type="network-printer"/>
+<nodetype type="network-printserver"/>
+<nodetype type="notebook"/>
+<nodetype type="novell-server"/>
+<nodetype type="olencom"/>
+<nodetype type="openbsd-server"/>
+<nodetype type="openvms-server"/>
+<nodetype type="pix"/>
+<nodetype type="redhat-server"/>
+<nodetype type="router"/>
+<nodetype type="server"/>
+<nodetype type="sql-server"/>
+<nodetype type="sun-server"/>
+<nodetype type="sun-workstation"/>
+<nodetype type="sun"/>
+<nodetype type="suse-server"/>
+<nodetype type="switch"/>
+<nodetype type="terminal"/>
+<nodetype type="webcam"/>
+<nodetype type="web-server"/>
+<nodetype type="wi-fi"/>
+<nodetype type="windows-server"/>
+<nodetype type="windows-workstation"/>
+<nodetype type="workstation"/>
+<nodetype type="unix"/>
+<nodetype type="ups"/>
+<color NetbgColor="235:235:235" backImg="" bgColor="235:235:235" lineColor="0:102:153" selColor="255:200:0" txtColor="0:0:0"/>
+</netwhistler>

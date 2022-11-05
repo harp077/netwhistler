@@ -1,0 +1,132 @@
+<html><head>
+<title>Linux NetWhistler 2.8 HOWTO</title>
+ <style type="text/css">
+<!--
+.style1 {color: #006699}
+-->
+ </style>
+</head>
+<body>
+<hr>
+<h1>Linux NetWhistler 2.10 HOWTO</h1>
+
+<h2>Alexander Eremin, mailing list <code>netwhistler@gmail.com</code></h2>
+v.2.10, Mon Jul 24 12:58:17 CST 2006
+<p></p><hr>
+<em>This document describes how to use NetWhistler for network monitoring.</em>
+<hr>
+<p>
+</p>
+<h2><a href="#int">1. Introduction</a></h2>
+
+<p>
+</p>
+<h2><a href="#mc">2. Main Menu Commands </a></h2>
+
+<p>
+</p>
+<h2><a href="#nc">3. Node Context Commands </a></h2>
+
+<p></p>
+<hr>
+<div align="center">
+  <h2><br>
+    <a name="int"></a>1.Introduction
+</h2>
+  <ul>
+    <div align="left">
+      <div>
+        <p class="style2">NetWhistler is an easy to use open-source Network monitoring software that offers integrated fault and performance management functionality.<br>
+    This program auto-detects networks and presents them on graphical maps, which reflect up-to-the-minute device and host status. It includes powerful diagnostic tools including ping, trace, telnet, main network services monitoring, portscan, vncviewer, email alerts, network discovery, SNMP tools (MIB browser and Trap Console for incoming SNMP traps from any SNMP-enabled device in the network), syslog server, MRTG console and etc. NetWhistler can automatically scan a network in search of non-SNMP and SNMP-enabled devices that you want to manage in your network. Scanning parameters ( network address, network mask, SNMP community ) are fully configurable. <br>
+    Once the discovery operation has been completed, the program displays a map of all devices along with basic information about them such as address, DNS name, MAC address and description. You can find or delete a node on the map, or change node properties.<span class="serendipity_entry_body"> The map can be stored in a local xml file.</span> </p>
+      </div>
+      <p>NetWhistler can be run using icon on your desktop or netwhistler.sh script in netwhistler directory. You can increase memory for java, adding "-Xmx[MEMORY_SIZE]m" (f.e. "-Xmx256m") after "-server" option in startup script. Before running the script, the java directory should be set to the PATH. Also fping must be installed. From this version you can use your own ping script, written in Python, Perl, Ruby, Bash or others languages.</p>
+After startup you can view Net-View or OpenView-like interface. Double-click on globe icon opens Networks Panel where you can view directly connected networks. Here you can add or delete network, discover it, add or delete router and links. Double-click opens Nodes Panel for this network. You can also use Map Tree for navigation. The Program Interface
+use 5 panels: Topology View (main), Status View ( real-time table), Interface View (real-time) , Events View (real-time), Graphs View (Nodes State Summary Graph and Nodes With Longest Response Time Graph).
+Use Map Tree Panel or Toolbar Finder to find node on Map Toplogy Panel or others.
+      <p>&nbsp;</p>
+    </div>
+  </ul>
+  <div align="left">
+    <h2 align="center"><a name="mc"></a>2. Main Menu Commands </h2>
+    <ul>
+      <p><strong>Map Menu</strong>=&gt;<strong>Map Menu</strong>=&gt;<strong>New</strong> [Ctrl-N] : Creates a new map manually. </p>
+      <p><strong>Map Menu</strong>=&gt;<strong>Open</strong> [Ctrl-O]: Opens an existing map in xml format. </p>
+      <p><strong>Map Menu</strong>=&gt;<strong>Save</strong> [Ctrl-S]: Saves an opened map in xml file. When you save a map for the first time, NetWhistler prompts you to enter its name. If you want to change the name and directory of an existing map before you save it, choose the Save As command. </p>
+      <p><strong>Map Menu</strong>=&gt;<strong>Save As: </strong>Saves an opened map to a specified xml filename. </p>
+      <p> <strong>Map Menu</strong>=&gt;<strong>Save as Image: </strong>Saves an opened map to an image.</p>
+      <p><strong>Map Menu</strong>=&gt;<strong>Exit</strong> [Alt-X]: Exits from NetWhistler</p>
+      <p><strong>Edit Menu =&gt; </strong> <strong>Add Node</strong> [F5]: Adding node on a map. To add the node to the map, you should specify the following parameters: IP Address, the hardware type of node, what to use for label (displayed under the device icon): IP Address, DNS-name,IP Address + DNS or SNMP System name.<br>
+    In the "Info" tab you can add node description, displayed on hovering the cursor over the node's icon. Here it is possible to choose hint image associated with the node, which is displayed on hovering the cursor over the node's icon. Select checkbox on SNMP tab and write Read and Write Communities if this node is SNMP-managable. For unmanagable nodes choose hardware-type "hub", for networks - "network-cloud". After adding a node to the map, if the node is in your network, the program will establish node MAC Address. Pushing "Ok" button will add the node to the map. </p>
+    </ul>
+    <ul>
+      <p><strong>Edit Menu =&gt; </strong> <strong>Add Box</strong> [F6]: Adding box on a map. You can add text to box, apply various colors and a shadow. To delete a box, right-click the box and select "Delete".</p>
+      <p><strong>Edit Menu =&gt; </strong> <strong>Operations</strong> [Ctrl-G]: Opens a Map Operations dialog. Here you can change labels type for all nodes.</p>
+      <p><strong>Edit Menu =&gt; </strong> <strong>Options</strong> [F9]: Opens a main Map Options dialog with tabs: Monitoring, Alerts, SNMP, Colors, Types, External Commands and etc. Here it is possible to change monitoring period, number of ping retries, reply timeout (in milliseconds), services monitoring period, SNMP community for discovering, SNMP monitoring period, map colors, image to be displayed in the map background. Here it is possible to add or to remove nodes types. You must put  transparent gif  (48x48) with same type name in &quot;pics&quot; directory. It's possible to indicate what script to use for
+ping and MAC determining. Also it's possible to indicate the script, which will be carried out
+after SNMP monitoring. See examples in &quot;scripts&quot; directory. </p>
+      <p>You may add external commands (such as Ping, Ftp) to the node context menu (Use 'xterm -e telnet %IP' for example or write shell script with 'read' at the end). To execute an external command, right-click the node and select the required command. Use "%IP" as node IP Address in command arguments. NetWhistler may notify you, if any node wakes up or shuts down. There are 5 methods of notification: displaying the popup alert on the screen, sending the e-mail message(html or plain text), running external command (perl script for example), saving the event from Event Console in the log-file, displaying this event on Map Status page.</p>
+      <p><strong>Monitoring Menu=&gt;Start/Stop</strong> [F8]: Use this command to start/stop monitoring process.</p>
+      <p><strong>Monitoring Menu=&gt;Map Status</strong> [Ctrl-M]: Opens a Map Status Table which contain the detailed information about the map.</p>
+      <p><strong>Monitoring Menu=&gt;Event Log Console</strong> [Ctrl-E]: Opens a Event Log Console which shows monitoring event log. </p>
+      <p><strong>Monitoring Menu=&gt;View Menu =&gt; Show/Hide Toolbar</strong> [Ctrl-B]: Shows or hides the toolbar, which includes buttons for some of the most common commands in NetWhistler, such as Wizard, Open,etc. </p>
+      <p><strong>Monitoring Menu=&gt;View Menu =&gt; Show/Hide Map Tree</strong> [F2]: Shows or hides the Map Tree Panel. </p>
+      <p><strong>View Menu =&gt; Full Screen </strong> [F11]: Enable FullScreen Mode. To return press F11 again.</p>
+      <p><strong>View Menu =&gt; Zoom Out/In</strong> [Ctrl-Z]: Zooming map out/in. </p>
+      <p><strong>SNMP Menu=&gt;MRTG Console</strong> [Ctrl-R]: Opens a MRTG Console (based on JRobins MRTG). You can view MRTG traffics graphs for SNMP-managable nodes. </p>
+      <p><strong>SNMP Menu=&gt;Trap Console</strong> [Ctrl-T] : Opens a SNMP Trap Console (which runs Trapd server for incoming traps). </p>
+    </ul>
+    <ul>
+      <p><strong>Tools Menu=&gt;Syslog Console</strong> [Ctrl-L]: Opens a Syslog Console which runs Syslog server for receiving syslog messages from remote nodes.</p>
+    </ul>
+    <ul><p><strong>Help=&gt; Help</strong> [F1]<span class="style1">:</span> This command will open your default Web browser with this page.</p>
+      <p><strong>Help=&gt;About</strong> [Ctrl-F1]: This command presents About dialog box which displays the copyright notice and version number of your copy of NetWhistler. </p>
+    </ul>
+    <p align="center"> </p>
+    <h2 align="center"><a name="nc"></a>3. Node Context Commands </h2>
+    <ul>
+      <strong>Status: </strong> Use this command to view detailed node status. Here you can view tabs: 
+    </ul>
+    <ol>
+      <li><strong>Summary: </strong> Node summary info - IP Address, Mac Address, Hardware type, UpTime and etc; </li>
+      <li><strong>Services: </strong> Node services status; </li>
+      <li><strong>SNMP </strong> : Node SNMP main oids (for SNMP-managable nodes); </li>
+      <li><strong>SNMP Monitoring OIDs: </strong> Use this command to view SNMP Monitoring OIDs values (for SNMP-managable nodes); </li>
+      <li><strong>Network Interfaces: </strong> Use this command to view interfaces (for SNMP-managable nodes). </li>
+    </ol>
+    <ul>
+      <strong>Connect To...: </strong> Use this command to add a link to another Node.
+    </ul>
+<ul>
+      <strong>Tools: </strong> This submenu contains some commands such as telnet, portscan, vncviewer.
+    </ul>
+    <ul>
+      <strong>Ping: </strong> Ping selected node.
+    </ul>
+    <ul>
+      <strong>Trace: </strong>This command opens panel with node trace results.
+    </ul>
+    <ul>
+      <p><strong>Monitoring =&gt; </strong><strong>Enable(Disable): </strong> Use this command to enable or disable node monitoring. </p>
+      <p><strong>Monitoring =&gt;Network Services=&gt;</strong><strong>Check Now: </strong> Use this command to check node services status.</p>
+      <p><strong>Monitoring =&gt;SNMP =&gt;</strong><strong>Get OIDs Now: </strong> Use this command to get SNMP Monitoring OIDs. </p>
+    </ul>
+    <ul>
+      <p><strong>SNMP</strong> (for SNMP-managable nodes)=&gt;<strong>MIB Browser</strong>: Opens SNMP MIB Browser foe selected node.</p>
+      <p><strong>SNMP</strong> (for SNMP-managable nodes)=&gt;<strong>Identify: </strong> Use this command to identify node type. This process use "oids.xml" file from snmp directory. You can edit this xml manually. </p>
+    </ul>
+    <ul>
+      <strong>Delete: </strong> Use this command to delete a node.
+    </ul>
+    <ul>
+      <p><strong>Properties: </strong> Opens node properties dialog (same as "Add Node"). </p>
+      <h2 align="center">&nbsp;</h2>
+      <p>&nbsp;</p>
+      <div align="center">
+        <b>&nbsp;&copy; 2006 <a href="mailto:netwhistler@gmail.com">Mila NetWhistler</a></b>
+      </div>
+    </ul>
+    <br>
+  </div>
+</div>
+</body></html>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--NetWhistler properties xml-->
+<netwhistler>
+<web webPass="admin" webPort="8080" webUser="admin"/>
+</netwhistler>

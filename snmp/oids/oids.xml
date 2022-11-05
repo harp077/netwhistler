@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodegroup>
+<!-- NetWhistler oid_to_type database -->
+<node oid="default" name="Unknown" type="workstation"/>
+<node oid="NonSnmp" name="Unknown" type="workstation"/>
+<node oid="1.3.6.1.4.1.99.1.1.3.11" name="Windows 2000" type="windows-workstation"/>
+<node oid="1.3.6.1.4.1.311.1.1.3.1.2" name="Windows 2000 Server" type="windows-server"/>
+<node oid="1.3.6.1.4.1.311.1.1.3.1.1" name="Windows XP" type="windows-workstation"/>
+<node oid="1.3.6.1.4.1.11898.2.4.10" name="Access Point" type="access-point"/>
+<node oid="1.3.6.1.4.1.9.1.525" name="Cisco C1200 Series Access Point" type="access-point"/>
+<node oid="1.3.6.1.4.1.9.1.474" name="Cisco C1200-1220 Series Access Point" type="access-point"/>
+<node oid="1.3.6.1.4.1.9.1.380" name="Cisco 350 Series Access Point" type="access-point"/>
+<node oid="1.3.6.1.4.1.9.1.552" name="Cisco 350 IOS Series Access Point" type="access-point"/>
+<node oid="1.3.6.1.4.1.9.1.379" name="Cisco 340 IOS Series Access Point" type="access-point"/>
+<node oid="1.3.6.1.4.1.43.1.20.1" name="3Com 8000 Access Point" type="access-point"/>
+<node oid="1.3.6.1.4.1.43.1.20.2" name="3Com 6000 Access Point" type="access-point"/>
+<node oid="1.3.6.1.4.1.43.1.20.3" name="3Com 2000 Access Point" type="access-point"/>
+<node oid="1.3.6.1.4.1.15177.1" name="3COM OfficeConnect Access Point" type="access-point"/>
+<node oid="1.3.6.1.4.1.388.1.4" name="3COM AirConnect Access Point" type="access-point"/>
+<node oid="1.3.6.1.4.1.9442.1" name="Netgear - Access Point" type="access-point"/>
+<node oid="1.3.6.1.4.1.12350.1" name="Netgear - Access Point" type="access-point"/>
+<node oid="1.3.6.1.4.1.94.1.26.2.1" name="Nokia A032 Access Point" type="access-point"/>
+<node oid="1.3.6.1.4.1.1751.2.4.1" name="Proxim Orinoco AS-2000 Access Point" type="access-point"/>
+<node oid="1.3.6.1.4.1.11898.2.4" name="ORiNOCO Access Point" type="access-point"/>
+<node oid="1.3.6.1.4.1.388.1.3" name="Symbol Spectrum24 Access Point" type="access-point"/>
+<node oid="1.3.6.1.4.1.388.6.0" name="Symbol Mobius Access Point" type="access-point"/>
+<node oid="1.3.6.1.4.1.388.1.8" name="Symbol Access Point" type="access-point"/>
+<node oid="1.3.6.1.4.1.388.1.1" name="Symbol Spectrum24 Access Point" type="access-point"/>
+<node oid="1.3.6.1.4.1.388.1.5" name="Symbol Spectrum24 Access Point" type="access-point"/>
+<node oid="1.3.6.1.4.1.8714.1" name="Sonic FIREWALL" type="firewall"/>
+<node oid="1.3.6.1.4.1.8741.1" name="Sonic Pro200/300/VX Firewall" type="firewall"/>
+<node oid="1.3.6.1.4.1.2620" name="Check Point Firewall" type="firewall"/>
+<node oid="1.3.6.1.4.1.12356.400" name="Fortigate Firewall" type="firewall"/>
+<node oid="1.3.6.1.4.1.1916.2.11" name="Extreme BlackDiamond64" type="switch"/>
+<node oid="1.3.6.1.4.1.1916.2.12" name="Extreme Summit7iSx" type="switch"/>
+<node oid="1.3.6.1.4.1.1916.2.13" name="Extreme Summit7iTx" type="switch"/>
+<node oid="1.3.6.1.4.1.1916.2.14" name="Extreme Summit1iTx" type="switch"/>
+<node oid="1.3.6.1.4.1.1916.2.16" name="Extreme Summit48i" type="switch"/>
+<node oid="1.3.6.1.4.1.1916.2.17" name="Extreme Alpine3808" type="switch"/>
+<node oid="1.3.6.1.4.1.1916.2.22" name="Extreme Alpine3804" type="switch"/>
+<node oid="1.3.6.1.4.1.1916.2.4" name="Extreme Summit4" type="switch"/>
+<node oid="1.3.6.1.4.1.1916.2.6" name="Extreme Summit48" type="switch"/>
+<node oid="1.3.6.1.4.1.1916.2.7" name="Extreme Summit24" type="switch"/>
+<node oid="1.3.6.1.4.1.1991.1.1" name="Foundry FastIron Work Group Switch" type="switch"/>
+<node oid="1.3.6.1.4.1.2272.7" name="Nortel Accelar 1150" type="switch"/>
+<node oid="1.3.6.1.4.1.1872.1.10" name="Nortel ACEdirector 4" type="switch"/>
+<node oid="1.3.6.1.4.1.1872.1.9" name="Nortel ACEswitch 184" type="switch"/>
+<node oid="1.3.6.1.4.1.45.3.43.1" name="Nortel BayStack 420" type="switch"/>
+<node oid="1.3.6.1.4.1.45.3.46.1" name="Nortel BayStack 470-48T" type="switch"/>
+<node oid="1.3.6.1.4.1.45.3.40.1" name="Nortel Business Policy Switch 2000" type="switch"/>
+<node oid="1.3.6.1.4.1.2272.32" name="Nortel Passport 8110" type="switch"/>
+<node oid="1.3.6.1.4.1.2272.31" name="Nortel Passport 8606" type="switch"/>
+<node oid="1.3.6.1.4.1.2272.30" name="Nortel Passport 8610" type="switch"/>
+<node oid="1.3.6.1.4.1.2272.33" name="Nortel Passport 8106" type="switch"/>
+<node oid="1.3.6.1.4.1.562.36.1.3" name="Nortel Carrier Passport" type="switch"/>
+<node oid="1.3.6.1.4.1.541.2.0" name="Nortel CLAM Router" type="router"/>
+<node oid="1.3.6.1.4.1.2505.10" name="Nortel Contivity Router" type="router"/>
+<node oid="1.3.6.1.4.1.2505.8" name="Nortel Contivity Router" type="router"/>
+<node oid="1.3.6.1.4.1.2505.6" name="Nortel Contivity Router" type="router"/>
+<node oid="1.3.6.1.4.1.2505.5" name="Nortel Contivity Router" type="router"/>
+<node oid="1.3.6.1.4.1.2505.4" name="Nortel Contivity Router" type="router"/>
+<node oid="1.3.6.1.4.1.2505.12" name="Nortel Contivity Extranet Switch V04_07.021" type="switch"/>
+<node oid="1.3.6.1.4.1.2505.2700" name="Nortel Contivity Extranet Switch V04_75.10" type="switch"/>
+<node oid="1.3.6.1.4.1.2505.9" name="Nortel Contivity VPN 4600" type="router"/>
+<node oid="1.3.6.1.4.1.3076.1.2.1.1.2.1" name="Cisco VPN 3000 Concentrator" type="cisco"/>
+<node oid="1.3.6.1.4.1.3076.1.2.1.1.1.2" name="Cisco VPN 3000 Concentrator" type="cisco"/>
+<node oid="1.3.6.1.4.1.3224.1.9" name="Netscreen 204" type="firewall"/>
+<node oid="1.3.6.1.4.1.3224.1.13" name="Netscreen 5200" type="firewall"/>
+<node oid="1.3.6.1.4.1.3224.1.1" name="Netscreen 5XT" type="firewall"/>
+<node oid="1.3.6.1.4.1.3224.1.4" name="Netscreen 100" type="firewall"/>
+<node oid="1.3.6.1.4.1.3224.1.2" name="Netscreen 5" type="firewall"/>
+<node oid="1.3.6.1.4.1.3224.1.6" name="Netscreen 500" type="firewall"/>
+<node oid="1.3.6.1.4.1.1229.2.1.1.0" name="Kyocera Printer" type="network-printer"/>
+<node oid="1.3.6.1.4.1.2021.250.10" name="Linux" type="linux-server"/>
+<node oid="1.3.6.1.4.1.8072.3.2.3" name="Solaris" type="sun-server"/>
+<node oid="1.3.6.1.4.1.8072.3.2.10" name="Linux" type="linux-server"/>
+<node oid="1.3.6.1.4.1.2021.250.3" name="Solaris" type="sun-server"/>
+<node oid="1.3.6.1.4.1.8072.3.2" name="Linux" type="linux-server"/>
+<node oid="1.3.6.1.4.1.1919.1.1" name="Check Point Firewall" type="firewall"/>
+<node oid="1.3.6.1.4.1.1750.1.1" name="HBM LAN Printer" type="network-printer"/>
+<node oid="1.3.6.1.4.1.1347.43" name="Kyocera Printer" type="network-printer"/>
+<node oid="1.3.6.1.4.1.1751." name="Lucent Router" type="lucent"/>
+<node oid="1.3.6.1.4.1.343.5.1.15" name="Intel 480T Switch" type="switch"/>
+<node oid="1.3.6.1.4.1.343.5.1.6" name="Intel 510T Switch" type="switch"/>
+<node oid="1.3.6.1.4.1.343.5.1.4" name="Intel 550T Switch" type="switch"/>
+<node oid="1.3.6.1.4.1.311.1.1.3.2" name="Windows 98" type="windows-workstation"/>
+<node oid="1.3.6.1.4.1.311.1.1.3.1.3.1.2" name="Windows 2003" type="windows-server"/>
+<node oid="1.3.6.1.4.1.311.1.1.3.1.3" name="Windows 2003" type="windows-server"/>
+<node oid="1.3.6.1.4.1.311." name="Microsoft" type="windows-server"/>
+<node oid="1.3.6.1.4.1.311.1.1.3.1.1" name="Windows 2000" type="windows-server"/>
+<node oid="1.3.6.1.4.1.311.1.1.3.1" name="WindowsNT" type="windows-server"/>
+<node oid="1.3.6.1.4.1.223." name="Unisys" type="workstation"/>
+<node oid="1.3.6.1.4.1.321." name="Verilink" type="switch"/>
+<node oid="1.3.6.1.4.1.318.6" name="APC UPS" type="ups"/>
+<node oid="1.3.6.1.4.1.318." name="APC UPS" type="ups"/>
+<node oid="1.3.6.1.4.1.233." name="NetSNMP" type="ups"/>
+<node oid="1.3.6.1.4.1.232." name="Compaq" type="workstation"/>
+<node oid="1.3.6.1.4.1.345." name="Epson" type="network-printer"/>
+<node oid="1.3.6.1.4.1.334." name="Lotus" type="workstation"/>
+<node oid="1.3.6.1.4.1.674." name="Dell" type="workstation"/>
+<node oid="1.3.6.1.4.1.641.1" name="Lexmark_Printer" type="network-printer"/>
+<node oid="1.3.6.1.4.1.505." name="Solaris" type="sun-server"/>
+<node oid="1.3.6.1.4.1.504." name="Solaris" type="sun-server"/>
+<node oid="1.3.6.1.4.1.789.1.1.1" name="Network-Appliance" type="workstation"/>
+<node oid="1.3.6.1.4.1.789." name="Network-Appliance" type="workstation"/>
+<node oid="1.3.6.1.4.1.236." name="Samsung" type="workstation"/>
+<node oid="1.3.6.1.4.1.108.1.1.7" name="Emulex Printer" type="network-printer"/>
+<node oid="1.3.6.1.4.1.108.1.1.6" name="Emulex Printer" type="network-printer"/>
+<node oid="1.3.6.1.4.1.94." name="Nokia" type="workstation"/>
+<node oid="1.3.6.1.4.1.63.1" name="Macintosh" type="workstation"/>
+<node oid="1.3.6.1.4.1.63." name="Apple" type="workstation"/>
+<node oid="1.3.6.1.4.1.173." name="Netlink" type="workstation"/>
+<node oid="1.3.6.1.4.1.43." name="3COM" type="3com"/>
+<node oid="1.3.6.1.4.1.43.1.4" name="3COM Hub" type="3com"/>
+<node oid="1.3.6.1.4.1.43.10.27.4.1.2.4" name="3Com SuperStack 3" type="3com"/>
+<node oid="1.3.6.1.4.1.43.10.27.4.1.2.11" name="3Com SuperStack 3" type="3com"/>
+<node oid="1.3.6.1.4.1.122.5500.1.1" name="Sony Wireless (PCW A100)" type="wi-fi"/>
+<node oid="1.3.6.1.4.1.5227.4" name="AirStation Series WLM2-SERIES Ver 2.44" type="wi-fi"/>
+<node oid="1.3.6.1.4.1.114.1.3.3.2" name="3Com LinkSwitch 2200" type="3com"/>
+<node oid="1.3.6.1.4.1.43.1.8.13" name="3Com LinkSwitch 1000" type="3com"/>
+<node oid="1.3.6.1.4.1.43.1.8.16" name="3Com LinkSwitch 2700" type="3com"/>
+<node oid="1.3.6.1.4.1.43.1.8.8" name="3Com LinkSwitch" type="3com"/>
+<node oid="1.3.6.1.4.1.43.1.8.9" name="3Com MSH-LinkSwitch" type="3com"/>
+<node oid="1.3.6.1.4.1.870.1.1.5" name="3Com LinkSwitch 500" type="3com"/>
+<node oid="1.3.6.1.4.1.43.10.27.4.1.2.2" name="3Com switch" type="3com"/>
+<node oid="1.3.6.1.4.1.43.1.4.13.8" name="3Com bridge" type="bridge"/>
+<node oid="1.3.6.1.4.1.43.1.4.3" name="3Com ECS-L-Bridge" type="bridge"/>
+<node oid="1.3.6.1.4.1.43.1.8.10" name="3Com FMS-Bridge" type="bridge"/>
+<node oid="1.3.6.1.4.1.83" name="3Com MSH-TR-Bridge" type="bridge"/>
+<node oid="1.3.6.1.4.1.11.2.3.7.7" name="HP Packet switch" type="switch"/>
+<node oid="1.3.6.1.4.1.11.2.3.7.1.1" name="HP 28673A Bridge" type="bridge"/>
+<node oid="1.3.6.1.4.1.11.2.3.7.1.2" name="HP 28674A Bridge" type="bridge"/>
+<node oid="1.3.6.1.4.1.11.2.3.7.1.8" name="HP Switch 16" type="switch"/>
+<node oid="1.3.6.1.4.1.11.2.3.7.1.10" name="HP Switch 200" type="switch"/>
+<node oid="1.3.6.1.4.1.11.2.3.7.1" name="HP Switch" type="switch"/>
+<node oid="1.3.6.1.4.1.11.2.3.7.8.2.5" name="HP Switch-Hub" type="switch"/>
+<node oid="1.3.6.1.4.1.2272.43" name="Nortel PPassport 1648T" type="switch"/>
+<node oid="1.3.6.1.4.1.2272.31" name="Nortel PPassport 8606" type="switch"/>
+<node oid="1.3.6.1.4.1.2271.10" name="Nortel PPassport switch" type="switch"/>
+<node oid="1.3.6.1.4.1.45.3.35.1" name="Nortel Bay Stack" type="switch"/>
+<node oid="1.3.6.1.4.1.318.1.3.8.3" name="APC Environmental Monitoring Unit" type="ups"/>
+<node oid="1.3.6.1.4.1.13409.2" name="iCamView" type="webcam"/>
+<node oid="1.3.6.1.4.1.11.2.3.7.5.1" name="HP 28688A Hub" type="managable-hub"/>
+<node oid="1.3.6.1.4.1.11.2.3.7.5.2" name="HP 28688B Hub" type="managable-hub"/>  
+<node oid="1.3.6.1.4.1.11.2.3.7.5.3" name="HP 28682A Hub" type="managable-hub"/>  
+<node oid="1.3.6.1.4.1.11.2.3.7.5.4" name="HP 28699A Hub" type="managable-hub"/>  
+<node oid="1.3.6.1.4.1.11.2.3.7.5.5" name="HP 28692A Hub" type="managable-hub"/>  
+<node oid="1.3.6.1.4.1.11.2.3.7.5.6" name="HP J2355A Hub" type="managable-hub"/>  
+<node oid="1.3.6.1.4.1.11.2.3.7.8.2.1" name="HP J2603A Hub" type="managable-hub"/>  
+<node oid="1.3.6.1.4.1.11.2.3.7.5.1" name="HP J2414A Hub" type="managable-hub"/>  
+<node oid="1.3.6.1.4.1.11.2.3.7.5" name="HP Hub" type="managable-hub"/>  
+<node oid="1.3.6.1.4.1.171.10.10.1" name="D-Link Print Server" type="network-printserver"/>  
+<node oid="1.3.6.1.4.1.1991.1.3.3.2" name="ServerIron Switch" type="3com"/>
+<node oid="1.3.6.1.4.1.43.1.8.29" name="3Com_SuperStackII" type="3com"/>
+<node oid="1.3.6.1.4.1.43.1.8.22" name="3Com_SuperStackII 3000" type="3com"/>
+<node oid="1.3.6.1.4.1.43.1.8.13" name="3Com_SuperStackII 1000" type="3com"/>
+<node oid="1.3.6.1.4.1.42.2.1.1" name="Solaris" type="sun-server"/>
+<node oid="1.3.6.1.4.1.99.1.1.3.1" name="Solaris" type="sun-server"/>
+<node oid="1.3.6.1.4.1.42.1.1" name="Solaris" type="sun-server"/>
+<node oid="1.3.6.1.4.1.42.1" name="Solaris" type="sun-server"/>
+<node oid="1.3.6.1.4.1.42." name="Solaris" type="sun-server"/>
+<node oid="1.3.6.1.4.1.36.2.18.26" name="DECSystem" type="managable-hub"/>
+<node oid="1.3.6.1.4.1.36.2.15.5" name="DECHub" type="managable-hub"/>
+<node oid="1.3.6.1.4.1.36.2.15.4" name="DEC Router" type="router"/>
+<node oid="1.3.6.1.4.1.36.2.15.3" name="DEC Bridge" type="bridge"/>
+<node oid="1.3.6.1.4.1.36.2.15.2.3.2" name="DECSystem" type="managable-hub"/>
+<node oid="1.3.6.1.4.1.36.2.15.2.3" name="DECSystem" type="managable-hub"/>
+<node oid="1.3.6.1.4.1.36.2.15.18" name="DECHub" type="managable-hub"/>
+<node oid="1.3.6.1.4.1.36.2.15.11" name="DEC Router" type="router"/>
+<node oid="1.3.6.1.4.1.36.2.15.10" name="DECHub" type="managable-hub"/>
+<node oid="1.3.6.1.4.1.36.2.15.1.5.5" name="DECSystem" type="managable-hub"/>
+<node oid="1.3.6.1.4.1.36.2.15" name="DECSystem" type="managable-hub"/>
+<node oid="1.3.6.1.4.1.36.1" name="DECSystem" type="managable-hub"/>
+<node oid="1.3.6.1.4.1.23.1.6.5" name="Novell NetWare 5" type="novell-server"/>
+<node oid="1.3.6.1.4.1.23.1.6.4.11" name="Novell NetWare 4.11" type="novell-server"/>
+<node oid="1.3.6.1.4.1.23.1.6.3.11" name="Novell NetWare" type="novell-server"/>
+<node oid="1.3.6.1.4.1.23.1.3" name="Novell NetWare 386 TCP/IP agent" type="novell-server"/>
+<node oid="1.3.6.1.4.1.23.1.1.1" name="Novell LANtern network monitor" type="novell-server"/>
+<node oid="1.3.6.1.4.1.23.1.13" name="UnixWare" type="unix"/>
+<node oid="1.3.6.1.4.1.23.1" name="Novell" type="novell-server"/>
+<node oid="1.3.6.1.4.1.23." name="Novell" type="novell-server"/>
+<node oid="1.3.6.1.4.1.32.1.2.0.0" name="SCOUnix" type="unix"/>
+<node oid="1.3.6.1.4.1.32.1.0" name="SCOUnix" type="unix"/>
+<node oid="1.3.6.1.4.1.197.2.5" name="Cisco Catalyst 3000" type="catalyst"/>
+<node oid="1.3.6.1.4.1.11.2.3.9.3" name="HP-UX Terminal" type="unix"/>
+<node oid="1.3.6.1.4.1.11.2.3.9.1" name="HP-Printer" type="network-printer"/>
+<node oid="1.3.6.1.4.1.11.2.3.8" name="HP-UX" type="unix"/>
+<node oid="1.3.6.1.4.1.11.2.3.7.11." name="HP-Switch" type="switch"/>
+<node oid="1.3.6.1.4.1.11.2.3.7.8." name="HP-Hub" type="managable-hub"/>
+<node oid="1.3.6.1.4.1.11.2.3.10.1" name="Solaris" type="sun-server"/>
+<node oid="1.3.6.1.4.1.11.2.3.7.5." name="HP-Hub" type="managable-hub"/>
+<node oid="1.3.6.1.4.1.11.2.3.7.2.1" name="HP Router 440" type="router"/>
+<node oid="1.3.6.1.4.1.11.2.3.7.2.2" name="HP Router 445" type="router"/>
+<node oid="1.3.6.1.4.1.11.2.3.7.2.3" name="HP Router 430" type="router"/>
+<node oid="1.3.6.1.4.1.11.2.3.7.2.4" name="HP Router FRa" type="router"/>
+<node oid="1.3.6.1.4.1.11.2.3.7.2.5" name="HP Router 470" type="router"/>
+<node oid="1.3.6.1.4.1.11.2.3.7.2.6" name="HP Router 480" type="router"/>
+<node oid="1.3.6.1.4.1.11.2.3.7.2.7" name="HP Router PRa" type="router"/>
+<node oid="1.3.6.1.4.1.11.2.3.7.2.8" name="HP Router 650" type="router"/>
+<node oid="1.3.6.1.4.1.11.2.3.7.2.9" name="HP Router 230" type="router"/>
+<node oid="1.3.6.1.4.1.11.2.3.7.2.10" name="HP Router 240" type="router"/>
+<node oid="1.3.6.1.4.1.11.2.3.7.2.11" name="HP Router 245" type="router"/>
+<node oid="1.3.6.1.4.1.11.2.3.7.2.12" name="HP Router 210" type="router"/>
+<node oid="1.3.6.1.4.1.11.2.3.7.2" name="HP Router" type="router"/>
+<node oid="1.3.6.1.4.1.22.1.1.1" name="Fibronics FDDI-Ethernet IP router" type="router"/>
+<node oid="1.3.6.1.4.1.18.1" name="Wellfleet IP router" type="router"/>
+<node oid="1.3.6.1.3.9999" name="Planet Broadband Residential Gateway" type="router"/>
+<node oid="1.3.6.1.4.1.11.2.3.7.1" name="HP-Bridge" type="bridge"/>
+<node oid="1.3.6.1.4.1.11.2.3.4" name="HP-UX" type="unix"/>
+<node oid="1.3.6.1.4.1.99.1.1.3.6" name="HP-UX" type="unix"/>
+<node oid="1.3.6.1.4.1.8072.3.2.255" name="FeeBSD" type="unix"/>
+<node oid="1.3.6.1.4.1.11.2.3.2.5" name="HP-UX System" type="unix"/>
+<node oid="1.3.6.1.4.1.326.2.1" name="IRIX" type="unix"/>
+<node oid="1.3.6.1.4.1.11.2.3.2.3" name="HP-UX" type="unix"/>
+<node oid="1.3.6.1.4.1.11.2.3.2" name="HP-UX" type="unix"/>
+<node oid="1.3.6.1.4.1.11.2.3.10.1.2" name="Solaris" type="sun-server"/>
+<node oid="1.3.6.1.4.1.11.2.3.10.1.1" name="Solaris" type="sun-server"/>
+<node oid="1.3.6.1.4.1.4.1.1" name="Unix" type="unix"/>
+<node oid="1.3.6.1.4.1.2.6.11" name="AS400" type="server"/>
+<node oid="1.3.6.1.4.1.2.3.1.2.1.1.3" name="RISC6000" type="server"/>
+<node oid="1.3.6.1.4.1.2.3.1.2.1.1.2" name="RISC6000" type="server"/>
+<node oid="1.3.6.1.4.1.2.3.1" name="RISC6000" type="server"/>
+<node oid="1.3.6.1.4.1.2.2.1.2.4" name="IBM3090" type="ibm"/>
+<node oid="1.3.6.1.4.1.1." name="Proteon" type="server"/>
+<node oid="1.3.6.1.4.1.2.2.1.2.3" name="IBM3090" type="ibm"/>
+<node oid="1.3.6.1.4.1.2.2.1.2.2" name="OS-2" type="workstation"/>
+<node oid="1.3.6.1.4.1.2." name="IBM" type="ibm"/>
+<node oid="1.3.6.1.4.1.9.5.59" name="Cisco Catalyst 4500" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.5.58" name="Cisco Catalyst 4500" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.5.56" name="Cisco Catalyst 6503" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.5.51" name="Cisco Catalyst 2980G-A" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.5.50" name="Cisco Catalyst 6513" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.5.49" name="Cisco Catalyst 2980G" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.5.42" name="Cisco Catalyst 2948G" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.5.47" name="Cisco Catalyst 6509SP" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.5.46" name="Cisco Catalyst 4006" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.5.45" name="Cisco Catalyst 6506" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.5.44" name="Cisco Catalyst 6000" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.5.41" name="Cisco Catalyst 4912G" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.5.40" name="Cisco Catalyst 4003" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.5.39" name="Cisco Catalyst 6009" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.5.38" name="Cisco Catalyst 6006" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.5.37" name="Cisco Catalyst 3920" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.5.36" name="Cisco Catalyst 5509" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.5.35" name="Cisco Catalyst 2926" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.5.34" name="Cisco Catalyst 5505" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.5.33" name="Cisco Catalyst 3900" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.5.31" name="Cisco Catalyst 1912" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.5.30" name="Cisco Catalyst 1220 Etherswitch" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.5.29" name="Cisco Catalyst 5002" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.5.28" name="Cisco Catalyst 1900" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.5.27" name="Cisco Catalyst 1220 Etherswitch" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.5.26" name="Cisco Catalyst 3000" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.5.25" name="Cisco Catalyst CPW16" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.5.23" name="Cisco Catalyst 3100" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.5.20" name="Cisco Catalyst 2820" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.5.19" name="Cisco Catalyst 1220 Etherswitch" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.5.18" name="Cisco Catalyst 1900" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.5.17" name="Cisco Catalyst 5500" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.5.16" name="Cisco Catalyst 1900" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.5.15" name="Cisco Catalyst 3200" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.5.13" name="Cisco Catalyst 2200" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.5.12" name="Cisco Catalyst 2900" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.5.10" name="Cisco Catalyst 3000" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.5.9" name="Cisco Catalyst CPW16" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.5.7" name="Cisco Catalyst WS-C5000" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.5.5" name="Cisco Catalyst 1200" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.507" name="Cisco Aironet Access Point" type="access-point"/>
+<node oid="1.3.6.1.4.1.9.1.520" name="Cisco 1900 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.515" name="Cisco Catalyst 3524PWRXLEn" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.507" name="Access Point" type="access-point"/>
+<node oid="1.3.6.1.4.1.9.1.501" name="Cisco Catalyst 4500" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.502" name="Cisco Catalyst 4500" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.503" name="Cisco Catalyst 4500" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.508" name="Cisco Catalyst 2950" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.480" name="Cisco Catalyst 2950-24SX" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.489" name="Cisco Catalyst 2950" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.488" name="Cisco Catalyst 2950" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.483" name="Cisco Catalyst 2950" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.482" name="Cisco Catalyst 2950" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.472" name="Cisco Catalyst 2950G-24DC" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.427" name="Cisco Catalyst 2950-12G" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.428" name="Cisco Catalyst 2950-24G" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.429" name="Cisco Catalyst 2950-48G" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.430" name="Cisco Catalyst 2950-24S" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.472" name="Cisco Catalyst 2950-24GDC" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.431" name="Cisco Catalyst 3550-12G" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.452" name="Cisco Catalyst 3550-24DC" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.453" name="Cisco Catalyst 3550-24-MMF" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.485" name="Cisco Catalyst 3550-24PWR" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.479" name="Cisco 3250 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.466" name="Cisco 2600XM Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.467" name="Cisco 2600XM Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.468" name="Cisco 2600XM Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.469" name="Cisco 2600XM Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.476" name="Cisco 7300 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.470" name="Cisco 2600XM Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.471" name="Cisco 2600XM Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.457" name="Cisco RPM-PR" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.449" name="Cisco 6500 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.446" name="Cisco 800 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.439" name="Cisco 7300 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.436" name="Cisco 3700 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.425" name="Cisco 3600 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.414" name="Cisco 3700 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.413" name="Cisco 2600 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.403" name="Cisco 7400 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.402" name="Cisco 7600 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.401" name="Cisco 7600 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.448" name="Cisco Catalyst 4006-SW" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.438" name="Edge Services Router" type="router"/>
+<node oid="1.3.6.1.4.1.9.1.437" name="Edge Services Router" type="router"/>
+<node oid="1.3.6.1.4.1.9.1.423" name="Gigabit Switch Router 12400" type="router"/>
+<node oid="1.3.6.1.4.1.9.1.444" name="Cisco 1700 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.416" name="Cisco 1700 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.413" name="Cisco 2691" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.399" name="Cisco 4000 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.398" name="Cisco 1900 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.397" name="Cisco 10700 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.362" name="Integrated Access Device" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.338" name="Cisco 3661-AC" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.339" name="Cisco 3661-DC" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.340" name="Cisco 3662-AC" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.341" name="Cisco 3662-DC" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.342" name="Cisco 3662-AC-CO" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.343" name="Cisco 3662-DC-CO" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.326" name="Cisco 1700 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.323" name="Cisco Catalyst 2950-12" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.324" name="Cisco Catalyst 2950-24" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.325" name="Cisco Catalyst 2950-24C" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.359" name="Cisco Catalyst 2950T" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.366" name="Cisco Catalyst 3550-24" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.367" name="Cisco Catalyst 3550-48" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.368" name="Cisco Catalyst 3550-12T" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.369" name="Cisco Catalyst 2924LREXL" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.370" name="Cisco Catalyst 2912LREXL" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.387" name="Cisco Catalyst 4908gL3Dc" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.386" name="Cisco Catalyst 2948GL3Dc" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.394" name="Gigabit Switch Router 12400" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.388" name="Gigabit Switch Router 12400" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.385" name="Gigabit Switch Router 12400" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.325" name="Cisco Catalyst 2950 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.324" name="Cisco Catalyst 2950 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.323" name="Cisco Catalyst 2950 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.384" name="Cisco 800 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.395" name="Cisco 811 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.396" name="Cisco 813 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.322" name="Cisco 826 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.321" name="Cisco 800 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.382" name="Cisco 800 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.497" name="Cisco 831 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.495" name="Cisco 837 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.354" name="Cisco 800 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.320" name="Cisco 2651" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.319" name="Cisco 2650" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.312" name="Cisco Catalyst 4000" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.310" name="Cisco Catalyst 6500" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.301" name="Cisco Catalyst 6000 Series Switches Module Switch Feature Card" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.298" name="Cisco Catalyst 4000" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.286" name="Cisco MC3810 Multiservice Access" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.221" name="Cisco Catalyst 2912MFXL" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.220" name="Cisco Catalyst 2924MXL" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.218" name="Cisco Catalyst 2924CXLV" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.217" name="Cisco Catalyst 2924XLV" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.219" name="Cisco Catalyst 2912XL" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.216" name="Cisco 1700 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.212" name="Cisco 800 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.213" name="Cisco 800 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.214" name="Cisco 800 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.215" name="Cisco 800 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.245" name="Cisco 800 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.295" name="Cisco 800 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.284" name="Cisco 800 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.270" name="Cisco 800 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.201" name="Cisco 1700 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.200" name="Cisco 1700 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.209" name="Cisco 2621" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.208" name="Cisco 2620" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.205" name="Cisco 3660" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.246" name="Cisco Catalyst 3508GXL" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.247" name="Cisco Catalyst 3512XL" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.248" name="Cisco Catalyst 3524XL" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.222" name="Cisco 7000 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.223" name="Cisco 7000 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.259" name="Cisco 7000 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.260" name="Cisco 7000 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.261" name="Cisco 7000 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.262" name="Cisco 7000 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.263" name="Cisco 7000 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.264" name="Cisco 7000 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.266" name="Cisco 7000 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.267" name="Cisco 7000 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.268" name="Cisco 7000 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.269" name="Cisco 7000 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.276" name="Cisco 7000 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.277" name="Cisco 7000 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.273" name="Gigabit Switch Router 12000" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.278" name="Cisco Catalyst 3548XL" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.287" name="Cisco Catalyst 3524PWRXL" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.291" name="Cisco 7500 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.290" name="Cisco 7500 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.289" name="Cisco 7500 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.288" name="Cisco 7500 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.204" name="Cisco 7500 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.206" name="Cisco 1400 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.227" name="Cisco PIX Firewall" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.450" name="Cisco PIX Firewall 506E" type="pix"/>
+<node oid="1.3.6.1.4.1.9.1.451" name="Cisco PIX Firewall 515E" type="pix"/>
+<node oid="1.3.6.1.4.1.9.1.389" name="Cisco PIX 506 Firewall" type="pix"/>
+<node oid="1.3.6.1.4.1.9.1.390" name="Cisco PIX 515 Firewall" type="pix"/>
+<node oid="1.3.6.1.4.1.9.1.391" name="Cisco PIX 520 Firewall" type="pix"/>
+<node oid="1.3.6.1.4.1.9.1.392" name="Cisco PIX 525 Firewall" type="pix"/>
+<node oid="1.3.6.1.4.1.9.1.393" name="Cisco PIX 535 Firewall" type="pix"/>
+<node oid="1.3.6.1.4.1.9.1.280" name="Cisco Catalyst 6006IOS" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.281" name="Cisco Catalyst 6009IOS" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.282" name="Cisco Catalyst 6506IOS" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.283" name="Cisco Catalyst 6509IOS" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.400" name="Cisco Catalyst 6513" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.192" name="Cisco Catalyst 6200" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.241" name="Cisco Catalyst 6000" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.300" name="Cisco Catalyst 4000RSC" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.537" name="Cisco Catalyst 4510" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.5.54" name="Cisco OSR7606" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.5.53" name="Cisco OSR7603" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.5.175" name="Cisco Catalyst wsc1900LiteFx" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.175" name="Cisco Catalyst 1912C" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.275" name="Cisco Catalyst 2948G-L3" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.5.21" name="Cisco 1420 EtherSwitch" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.231" name="Cisco Catalyst 8500 Multiservice Switch Router Series" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.230" name="Cisco Catalyst 8500 Multiservice Switch Router Series" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.202" name="Cisco Catalyst 8500 Multiservice Switch Router Series" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.203" name="Cisco Catalyst 8500 Campus Switch Router Series" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.256" name="Cisco Catalyst 6000 Series Switches Multilayer Switch Module" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.258" name="Cisco Catalyst 6000 Series Switches Module Switch Feature Card" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.184" name="Cisco Catalyst 2924CXL" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.183" name="Cisco Catalyst 2924XL" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.182" name="Gigabit Switch Router 12000" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.181" name="Gigabit Switch Router 12000" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.180" name="Cisco 6400 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.173" name="Gigabit Switch Router 12000" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.171" name="Cisco Catalyst 2916MXL" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.170" name="Cisco Catalyst 2908XL" type="catalyst"/>
+<node oid="1.3.6.1.4.1.9.1.195" name="Cisco 2613" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.194" name="Cisco 7000 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.187" name="Cisco 2612" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.186" name="Cisco 2611" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.185" name="Cisco 2610" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.122" name="Cisco 3620" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.110" name="Cisco 3640" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.189" name="Cisco 3600 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.187" name="Cisco 2600 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.186" name="Cisco 2600 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.185" name="Cisco 2600 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.178" name="Cisco FastHub" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.177" name="Cisco FastHub" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.172" name="Cisco 1600 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.167" name="Cisco 2500 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.166" name="Cisco 2500 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.165" name="Cisco 2500 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.157" name="Cisco MC3810 Multiservice Access" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.126" name="Cisco 700 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.127" name="Cisco 700 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.128" name="Cisco 700 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.129" name="Cisco 700 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.125" name="Cisco 7000 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.116" name="Cisco 1600 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.115" name="Cisco 1600 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.114" name="Cisco 1600 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.113" name="Cisco 1600 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.108" name="Cisco 7000 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.102" name="Cisco 700 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.103" name="Cisco 700 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.99" name="Cisco 700 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.98" name="Cisco 700 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.75" name="Cisco 2500 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.74" name="Cisco 2500 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.73" name="Cisco 2500 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.72" name="Cisco 2500 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.71" name="Cisco 2500 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.70" name="Cisco 2500 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.69" name="Cisco 2500 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.68" name="Cisco 2500 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.67" name="Cisco 2500 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.50" name="Cisco 4000 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.48" name="Cisco 7500 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.46" name="Cisco 7500 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.45" name="Cisco 7500 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.44" name="Cisco 7600 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.42" name="Cisco 2500 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.40" name="Cisco 1000 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.41" name="Cisco 1000 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.43" name="Cisco 1000 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.49" name="Cisco 1000 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.37" name="Cisco 3200 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.36" name="Cisco 3200 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.35" name="Cisco 3100 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.34" name="Cisco 3100 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.33" name="Cisco 3100 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.32" name="Cisco 3100 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.31" name="Cisco 2500 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.30" name="Cisco 2500 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.29" name="Cisco 2500 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.28" name="Cisco 2500 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.27" name="Cisco 2500 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.26" name="Cisco 2500 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.25" name="Cisco 2500 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.24" name="Cisco 2500 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.23" name="Cisco 2500 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.22" name="Cisco 2500 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.21" name="Cisco 2500 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.20" name="Cisco 2500 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.19" name="Cisco 2500 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.18" name="Cisco 2500 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.17" name="Cisco 2500 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.14" name="Cisco 4000 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.13" name="Cisco 2500 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.12" name="Cisco 7000 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.9" name="Cisco CS5000" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.8" name="Cisco 7000" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.7" name="Cisco 4000 Series" type="cisco"/>
+<node oid="1.3.6.1.4.1.9.1.3" name="Cisco Terminal Router" type="cisco"/>
+</nodegroup>
+
